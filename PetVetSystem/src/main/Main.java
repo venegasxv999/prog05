@@ -7,6 +7,7 @@ public class Main {
     public static void main(String[] args) {
         // Se instancia la interfaz de usuario que internamente inicializa los servicios.
         ConsoleUI console = new ConsoleUI();
+        // Se inicia la interfaz de usuario.
         console.start();
     }
 }
